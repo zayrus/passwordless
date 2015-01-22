@@ -1,0 +1,20 @@
+{
+  "name": "passwordless-simple-mail",
+  "private": "true",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "ejs": "~0.8.5",
+    "emailjs": "^0.3.8",
+    "express": "~4.2.0",
+    "express-session": "^1.2.1",
+    "morgan": "~1.0.0",
+    "passwordless": "*",
+    "passwordless-mongostore": "0.0.6",
+    "static-favicon": "~1.0.0"
+  }
+}
